@@ -1,9 +1,9 @@
 class Gitf < Formula
   desc "Ghost in the Factory - autonomous AI software factory CLI"
   homepage "https://ghostinthefactory.com"
-  url "https://github.com/mpurdon/gitf/releases/download/v0.65.118/gitf"
-  sha256 "602ef27406d9c9c2c41d615dad4bea72f8a81890d9765a3ed53d06a61942d8a6"
-  version "0.65.118"
+  url "https://github.com/mpurdon/gitf/releases/download/v0.65.119/gitf"
+  sha256 "5a75a76c29b6be68e1e0af653b987dbd7ff94131e71c35a9a08edaeb5ec1bdd4"
+  version "0.65.119"
 
   depends_on "erlang"
 
