@@ -1,16 +1,8 @@
-# homebrew-gitf
+# Moved
 
-Homebrew tap for [gitf](https://github.com/mpurdon/gitf) — the Ghost in the
-Factory CLI.
+The `gitf` formula now lives in [mpurdon/homebrew-tap](https://github.com/mpurdon/homebrew-tap):
 
-```sh
-brew tap mpurdon/gitf
-brew install gitf
-```
+    brew untap mpurdon/gitf
+    brew install mpurdon/tap/gitf
 
-The formula is bumped automatically by gitf's CI on every main build, from
-the escript attached to each GitHub Release. Once installed, `brew upgrade
-gitf` (or `gitf self-update`) picks up new versions.
-
-The escript is BEAM bytecode and runs through the Erlang runtime, which the
-formula depends on.
+This repository is archived and no longer updated (2026-09-01).
